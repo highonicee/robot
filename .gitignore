@@ -1,0 +1,30 @@
+@"
+# Virtual environments
+venv/
+venv_voice/
+venv_robot/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# AI model weights
+*.pt
+*.pth
+*.onnx
+
+# Vosk model
+data/vosk_model/
+
+# Build files
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+"@ | Set-Content .gitignore
